@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15793" started-at="2016-06-25T12:44:11Z" finished-at="2016-06-25T12:44:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15793" started-at="2016-06-25T12:44:11Z" finished-at="2016-06-25T12:44:27Z">
+      <class name="com.riamoney.MavenRiaMOney.CHeckPrices">
+        <test-method status="PASS" signature="testsetup()[pri:0, instance:com.riamoney.MavenRiaMOney.CHeckPrices@51efea79]" name="testsetup" is-config="true" duration-ms="13562" started-at="2016-06-25T08:44:11Z" finished-at="2016-06-25T08:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsetup -->
+        <test-method status="PASS" signature="CheckPriceMethod()[pri:0, instance:com.riamoney.MavenRiaMOney.CHeckPrices@51efea79]" name="CheckPriceMethod" duration-ms="2224" started-at="2016-06-25T08:44:25Z" finished-at="2016-06-25T08:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPriceMethod -->
+        <test-method status="PASS" signature="TestClose()[pri:0, instance:com.riamoney.MavenRiaMOney.CHeckPrices@51efea79]" name="TestClose" is-config="true" duration-ms="0" started-at="2016-06-25T08:44:27Z" finished-at="2016-06-25T08:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClose -->
+      </class> <!-- com.riamoney.MavenRiaMOney.CHeckPrices -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
