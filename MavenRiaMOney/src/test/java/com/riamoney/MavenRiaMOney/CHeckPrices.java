@@ -16,7 +16,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 
 public class CHeckPrices {
 	WebDriver dr;
-	String exRate = "67.37";
+	String exRate = "67.36";
 	String AppRate ="0";
 	@BeforeTest
 	public void testsetup(){
@@ -28,16 +28,16 @@ public class CHeckPrices {
 	
 	@Test
 	public void CheckPriceMethod(){		
-		
-		
+				
 		dr.findElement(By.xpath("//a[contains(text(),'Check')]")).click();		
 		new Select(dr.findElement(By.cssSelector("#countriesDDL"))).selectByVisibleText("India");
 		AppRate =  dr.findElement(By.cssSelector("#exchangeRate")).getText();
 		Assert.assertTrue(AppRate.equalsIgnoreCase(exRate), "Prices Matched");
 		System.out.println("App Rate : "+AppRate );
+		System.out.println("Test Run completed");
 	}
 	@AfterTest
 	public void TestClose(){
-		//dr.quit();
+		dr.quit();
 	}
 }
