@@ -34,7 +34,7 @@ public class CHeckPrices {
 		AppRate =  dr.findElement(By.cssSelector("#exchangeRate")).getText();
 		Assert.assertTrue(AppRate.equalsIgnoreCase(exRate), "Prices Matched");
 		System.out.println("App Rate : "+AppRate );
-		System.out.println("Test Run completed");
+		System.out.println("Test Run completed as expected");
 	}
 	@AfterTest
 	public void TestClose(){
